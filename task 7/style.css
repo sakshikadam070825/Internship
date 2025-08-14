@@ -1,0 +1,73 @@
+/* Basic body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading style */
+h1 {
+    color: #0071b3;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+/* Container for user cards */
+#user-data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Individual user card styling */
+.user-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Hover effect for user cards */
+.user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for user card titles */
+.user-card h2 {
+    color: #495057;
+    margin-top: 0;
+    font-size: 1.5em;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Styling for paragraph text in cards */
+.user-card p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+/* Styling for strong tags (labels) */
+.user-card p strong {
+    color: #007bff;
+}
+
+/* Styling for links */
+.user-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.user-card a:hover {
+    text-decoration: underline;
+}
